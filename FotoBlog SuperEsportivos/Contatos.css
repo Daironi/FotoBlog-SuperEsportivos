@@ -1,0 +1,113 @@
+body {
+    font-family: Russo One, sans-serif;
+    background-color: #000;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    padding: 3px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.home-icon {
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    margin-right: 775px;
+    margin-left: 10px;
+}
+
+.header h1 {
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.contact-info {
+    flex: 1;
+    padding: 20px;
+    background-color: #000;
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-method img {
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+    border-radius: 1000px;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-form label {
+    margin-top: 10px;
+}
+
+.email-form input,
+.email-form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 15px;
+}
+
+.cars {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.car-image {
+    width: 55%;
+    height: auto;
+    border-radius: 75px;
+    margin-bottom: -9px;
+}
+
+.car-image-red {
+    border: 5px solid red;
+    transform: rotate(9deg);
+    margin-top: 30px;
+}
+
+.car-image-gold {
+    border: 5px solid rgb(190, 161, 85);
+    transform: rotate(-9deg);
+}
+
+.car-image-white {
+    border: 5px solid white;
+    transform: rotate(9deg);
+}

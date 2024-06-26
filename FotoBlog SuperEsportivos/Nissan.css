@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0px 20px;
+}
+
+.home-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.navbar h1 {
+    font-family: 'Russo One', sans-serif;
+    color: #ff0000;
+    margin: 0;
+    font-size: 3em;
+    margin-left: 850px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 1875px;
+    height: 325px;
+    margin-left: 100px;
+}
+.images img {
+    width: 30%;
+    border: 5px solid #ff0000;
+    border-radius: 15px;
+}
+
+.description {
+    font-family: 'Russo One', sans-serif;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+}
+
+.description p {
+    font-size: 2em;
+    line-height: 1.5em;
+}

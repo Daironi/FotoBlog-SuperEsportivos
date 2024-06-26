@@ -1,0 +1,54 @@
+body {
+    font-family: 'Russo One', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar .home-icon {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .home-icon img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar .title {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+    margin-right: 150px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 10px;
+    padding: 200px;
+}
+
+.content p {
+    font-size: 45px;
+}
